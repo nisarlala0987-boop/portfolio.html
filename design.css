@@ -24,7 +24,7 @@ body{
 
 header{
     margin-top: 20px;
-    position: fixed;
+    
     top: 0;
     left: 0;
     width: 100%;
@@ -43,6 +43,7 @@ header{
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
+    
 }
 
 .logo:hover{
@@ -258,3 +259,445 @@ span{
         margin-top: 4rem;
     }
 }
+.h1{
+font-size: 50px;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+
+}
+.about1{
+
+display: flex;
+align-items: center;
+flex-direction: column;
+border: 2px solid white;
+width: 80%;
+height: 650px;
+border-radius: 20px ;
+
+
+
+}
+/*./*about img{
+    height: 100%;
+    width: 100%;
+    background-color: #161616;
+    border-radius: 200px;
+
+}
+/*.pic{
+
+margin: 100px;
+margin-right: 600px;
+justify-content: center;
+height: 80%;
+width: 50%;
+padding-left: 5px;
+margin-top: 20px;
+}*/
+.div1{
+width: 50%;
+height:85%;
+    
+    
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+padding: 50px;
+font-size: 20px;
+
+
+    
+    
+}
+.pic{
+width: 49%;
+height: 87%;
+border-radius: 100px;
+    
+    margin-bottom: 40px;
+}
+.pic img{
+height: 100%;
+width: 100%;
+border-radius: 190px;
+}
+.row{
+    display: flex;
+    width: 100%;
+height: 100%;
+margin-bottom:100px ;
+}
+.about{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+section{
+    height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+.h2{
+justify-content: center;
+align-items: center;
+font-size: 30px;
+display: flex;
+padding-top: 200px;
+flex-direction: column;
+padding-bottom: 100px;
+
+
+}
+.full{
+height: 500px;
+width: 100%;
+display: flex;
+gap: 100px;
+}
+.para{
+font-size: large;
+
+}
+
+
+.div4:hover{
+transform: scale(1.02) ;
+box-shadow: 0px 0px 20px white;
+}
+
+
+.div4{
+height: 100%;
+width: 450px;
+border: 1px solid rgb(222, 221, 221);
+
+border-radius: 10px;
+
+font-size: 30px;
+text-align: center;
+transition:all 0.3s ease ;
+
+
+}
+.div2{
+height:  100%;
+width: 450px;
+
+border-radius: 10px ;
+border: 1px solid white;
+font-size: 30px;
+text-align: center;
+transition:all 0.3s ease ;
+
+
+
+
+}.div3{
+height: 100% ;
+width: 450px;
+border: 1px solid white;
+border-radius: 10px;
+transition:all 0.3s ease ;
+
+font-size: 30px;
+text-align: center;
+
+
+}
+.image1>img{
+height: 250px; ;
+width: 100%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+
+
+}
+.image2>img{
+height: 250px;
+width: 100%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+
+
+} 
+.image3>img{
+height: 250px ;
+width: 100%;
+border-top-right-radius: 10px;
+
+}
+.pull{
+height: 500px;
+width: 100%;
+display: flex;
+gap: 100px;
+justify-content: space-around;
+
+margin-top: 100px;
+}
+.parag{
+font-size: small;
+text-align:start ;
+}
+
+.button{
+   color: white;
+   
+   border-radius: 1px solid;
+   height: 50px;
+  align-items: start;
+  width: 100px;
+  height: 200px;
+}
+.nisar{
+border-radius: 1px solid white;
+background-color: #161616;
+color: white;
+ width: 100px;
+  height: 50px;
+  margin: 20px;
+  text-align: start;
+  justify-content: right;
+
+}
+
+.div3:hover{
+transform: scale(1.02) ;
+box-shadow: 0px 0px 20px white;
+}
+.div2:hover{
+transform: scale(1.02) ;
+box-shadow: 0px 0px 20px white;
+}
+.nisar{
+    
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    border: 2px solid lightgrey;
+    transition: 0.3s ease;
+    cursor: pointer;
+    
+    margin-right: 270px;
+
+    
+}
+.nisar:hover{
+    transform: scale3d(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
+.sabir{
+margin-top: 20px;
+}
+
+/*
+  #contact {
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+    color: white;
+    padding: 60px 30px;
+    border-radius: 20px;
+    
+    margin: 80px auto;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin-top: -0px;
+
+  }
+
+  #contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #00ffff;
+  }
+
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #contact label {
+    font-weight: 600;
+    color: #ccc;
+  }
+
+  #contact input,
+  #contact textarea {
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    transition: all 0.3s ease;
+  }
+
+  #contact input:focus,
+  #contact textarea:focus {
+    border-color: #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+    outline: none;
+  }
+
+  #contact button {
+    background: linear-gradient(90deg, #00ffff, #007bff);
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  #contact button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ffff;
+    
+    #contact .type{
+        background-color: transparent;
+        color: white;
+        border-radius: 1px solid white;
+    }
+    }*/
+    .div9{
+border: 1px solid white;
+width: 1000px;
+height: 600px;
+margin-top: 200PX;
+border-radius: 20px;
+margin-left: 300px;
+
+}
+
+
+
+.wakeel{
+width: 49%;
+display: inline-block;
+height: 100%;
+vertical-align: top;
+justify-content: space-between;
+justify-content: center;
+text-align: center;
+font-size: 15px;
+padding-top: 30px;
+
+}
+.pakistan{
+font-size: 10px;
+text-align: start;
+padding-top: 30px;
+
+}
+
+.fa-location-dot{
+
+background-color: rgb(222, 166, 222);
+font-size: 30px;
+width: 40px;
+height:40px;
+text-align: center;
+padding-top: 5px;
+padding-right: 3px;
+
+
+
+
+}
+.love{
+
+width: 250px;
+height: 80px;
+display: flex;
+gap: 20px;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-left: 50px;
+transition: 4 ease;
+}
+
+.love:hover{
+border: 1px solid white;
+border-radius: 30px;
+transform: scale(1.05);
+  background-color: white;
+  color: #161616;
+  box-shadow: 0 10px 15px rgba(255,255,255,0.2);
+  
+
+}
+.hr{
+border:1px solid aliceblue;
+
+
+}
+
+
+
+
+.contant{
+padding-top: 20px;
+vertical-align: top;
+justify-content: space-between;
+width: 50%;
+display: inline-block;
+
+height: 100%;
+}
+#name,#message,#location,#bugdet{
+color:white;
+background-color: black;
+
+
+}
+input::placeholder{
+font-size: 20px;
+color:rgb(169, 164, 164);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+transition: 0.3s;
+
+}
+.paragra{
+
+font-size: 15px;
+margin-top: -30px;
+
+}
+.me{
+text-align: center;
+font-size: 20px;
+
+}
+
+
+
